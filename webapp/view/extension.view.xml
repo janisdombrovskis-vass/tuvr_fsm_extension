@@ -1,0 +1,20 @@
+<mvc:View controllerName="tuvrfsmextension.controller.extension"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Input id="_IDGenInput1"  placeholder="Type here"
+                showSuggestion="true"
+                liveChange="onInputChange">
+                <suggestionItems>
+                    <SuggestionItem id="_IDGenSuggestionItem1" text="Andy Sharp"/>
+                    <SuggestionItem id="_IDGenSuggestionItem2" text="Miles Pitwell"/>
+                    <SuggestionItem id="_IDGenSuggestionItem3" text="Ryan Hayashi"/>
+                    <SuggestionItem id="_IDGenSuggestionItem4" text="Felix Skyfall"/>
+                    <SuggestionItem id="_IDGenSuggestionItem5" text="Horst Schlemmer"/>
+                    <SuggestionItem id="_IDGenSuggestionItem6" text="Thorsten Sträter"/>
+                </suggestionItems>
+            </Input>
+        </content>
+    </Page>
+</mvc:View>
